@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Perfil Pessoal</title>
+    <style>
+      body {
+        font-family: Arial, Sans-Serif;
+        background-color: #f2f2f2;
+        text-align: center;
+      }
+      .card {
+        background: white;
+        width: 350px;
+        margin: 50px auto;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      }
+      .foto {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 3px solid green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img src="foto.jpg" alt="Foto de Perfil" class="foto">
+      <h2>Gustavo Mascarenhas</h2>
+      <p><strong>Matrícula:</strong> 202508201119</p>
+      <p><strong>Curso:</strong> Ciências da computação</p>
+      <p><strong>Objetivo:</strong> Me tornar desenvolvedor full-stack</p>
+    </div>
+  </body>
+</html>
